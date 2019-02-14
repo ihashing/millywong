@@ -15,7 +15,7 @@ window.onload = function() {
 	console.log(document.referrer)
 	console.log(navigator.platform.toLowerCase())
 	console.log(!window.navigator.standalone)
-	if (document.referrer === "https://andylamgot.github.io/digital-namecard//" || document.referrer === "https://andylamgot.github.io/digital-namecard/"){
+	if (document.referrer === "https://github.com/andylamgot/digital-namecard/" || document.referrer === "https://github.com/andylamgot/digital-namecard"){
 		console.log('true1')
 		if (navigator.platform.toLowerCase() === "iphone" || navigator.platform.toLowerCase() === "ipad") {
 			console.log('true2')
