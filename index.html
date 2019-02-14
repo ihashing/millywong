@@ -2,21 +2,55 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="main.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato:200,300,400,700' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Muli:200,300" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>andylamgot</title>
+	<link rel="stylesheet" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:200,300,400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Muli:200,300" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="icon" type="image/png" sizes="64x64" href="/assets/app-favicon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/homescreen-icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link href="/assets/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	<link href="/assets/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	<link href="/assets/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+	<link href="/assets/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+	<link href="/assets/splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	<link href="/assets/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	<link href="/assets/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120242830-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+  		gtag('config', 'UA-120242830-1');
+	</script>
 </head>
 
 <body>
-	<section class="bg-color-grey banner">
+	<section class="bg-color-navbar navbar">
 		<div class="container">
 			<div class="row">
-				<div class="col"></div>
-				<div class="col is-5">
-					<img class="profile-pic" src="andylamgot.jpg" alt="Profile Picture">
+				<div class="col">
+					<a href="t.me/andylamgot/#">
+						<span class="app-icon">andylamgot<i class="app-icon"></i></span>
+					</a>
 				</div>
-				<div class="col"></div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-color-hero banner">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img id="profile-pic" class="profile-pic" src="profile_photo.jpg" alt="Profile Picture">
+					<img id="qr-code" src="qr.png" alt="QR Code">
+				</div>
+				<div class="col">
+					<a id="share-button" class="share-button"><img src="/assets/icon-qr.svg">QR</a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -26,28 +60,42 @@
 			<div class="row name-title-company">
 				<div class="col is-6">
 					<p class="text-name">Andy Lam</p>
-					<p class="text-title-company">Co-Founder / CEO</p>
+					<p class="text-title-company">Co-founder/CEO</p>
 					<p class="text-title-company">iHashing Technology Co. Ltd</p>
 				</div>
 				<div class="col">
-					<img src="ihashing.jpg" alt="Company Logo">
+					<img class="company-logo" src="company_logo.jpg" alt="Company Logo">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-color-white additional-info">
+		<div class="container">
+			<div class="row name-title-company">
+				<div class="col is-2">
+					<a href="https://github.com/andylamgot/">
+						<img src="/assets/icon-github.svg">
+					</a>				
+				</div>
+				<div class="col is-2">
+					<a href="https://medium.com/ihashing">
+						<img src="/assets/icon-medium.svg">
+					</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section class="bg-color-white secondary-info">
-		<a href="mailto:whynot.andy@ihashing.hk">
+		<a href="mailto:mailto:whynot.andy@ihashing.hk">
 			<div class="container">
 				<div class="row detail">
-					<div class="col">
-						<img src="assets/icon-email.svg" alt="Email Icon"">
+					<div class="icon-div">
+						<img src="/assets/icon-email.svg" />
 					</div>
-					<div class="col is-8">
+					<div class="col">
 						<p class="text-detail">whynot.andy@ihashing.hk</p>
-					</div>
-					<div class="col">
-						<img src="assets/right-arrow.svg" alt="Right Arrow" height="50%" width="40%">
 					</div>
 				</div>
 			</div>
@@ -58,14 +106,11 @@
 		<a href="tel:+85294481122">
 			<div class="container">
 				<div class="row detail">
-					<div class="col">
-						<img src="assets/icon-phone.svg" alt="Phone Icon"">
+					<div class="icon-div">
+						<img src="/assets/icon-phone.svg" />
 					</div>
-					<div class="col is-8">
+					<div class="col">
 						<p class="text-detail">+852 94481122</p>
-					</div>
-					<div class="col">
-						<img src="assets/right-arrow.svg" alt="Right Arrow" height="50%" width="40%">
 					</div>
 				</div>
 			</div>
@@ -76,14 +121,11 @@
 		<a href="https://www.ihashing.hk">
 			<div class="container">
 				<div class="row detail">
-					<div class="col">
-						<img src="assets/icon-website.svg" alt="Website Icon"">
+					<div class="icon-div">
+						<img src="/assets/icon-website.svg" />
 					</div>
-					<div class="col is-8">
+					<div class="col">
 						<p class="text-detail">https://www.ihashing.hk</p>
-					</div>
-					<div class="col">
-						<img src="assets/right-arrow.svg" alt="Right Arrow" height="50%" width="40%">
 					</div>
 				</div>
 			</div>
@@ -91,18 +133,15 @@
 	</section>
 
 	<section class="bg-color-white secondary-info">
-		<a href="https://www.google.com.hk/maps/place/%E6%95%B8%E7%A2%BC%E6%B8%AF/@22.2614102,114.1302081,18.75z/data=!4m5!3m4!1s0x3403ffee35af3037:0x289fb0f444906fa2!8m2!3d22.2622066!4d114.1306892?hl=zh-TW&authuser=0">
+		<a href="https://www.google.com.hk/maps/place/%E6%95%B8%E7%A2%BC%E6%B8%AFSmart-Space+3C/@22.260204,114.130917,19.25z/data=!3m1!5s0x3403ffefbcc875f5:0xbfc4bf6e9d1423a0!4m12!1m6!3m5!1s0x3403ffefa2ad8225:0x971c157b7c079a77!2z5pW456K85riv5ZWG5aC0!8m2!3d22.2610257!4d114.1300656!3m4!1s0x3403ffefc2949fa7:0xf0a688394b805b30!8m2!3d22.260564!4d114.131288?hl=zh-TW&authuser=0">
 			<div class="container">
 				<div class="row detail">
-					<div class="col">
-						<img src="assets/icon-address.svg" alt="Address Icon"">
-					</div>
-					<div class="col is-8">
-						<p class="text-detail">Cyberport, Hong Kong 852</p>
+					<div class="icon-div">
+						<img src="/assets/icon-address.svg" />
 					</div>
 					<div class="col">
-						<img src="assets/right-arrow.svg" alt="Right Arrow" height="50%" width="40%">
-					</div>
+						<p class="text-detail">Cyberport, Hong Kong</p>
+					</div
 				</div>
 			</div>
 		</a>
@@ -111,18 +150,17 @@
 	<section class="bg-color-white bottom">
 		<div class="container">
 			<div class="row">
-				<div class="col"></div>
-				<div class="col is-5">
-					<div class="button">
-						<a href="user.vcf">
-							<p class="button">Save</p>
-						</a>
-					</div>
+				<div class="col horizontal-center-child">
+					<a href="andylamgot.vcf">
+						<button class="button">
+							Save Contact
+						</button>
+					</a>
 				</div>
-				<div class="col"></div>
 			</div>
 		</div>
 	</section>
+
 <script data-cfasync="false" src="email-decode.min.js"></script><script src="main.js"></script>
 </body>
 
