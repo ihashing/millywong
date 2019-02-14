@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:Lam;Andy;;;
+FN: Andy  Lam 
+ORG:iHashing Technology Co. Ltd;
+TITLE:Co-founder/CEO
+EMAIL;type=INTERNET;type=WORK;type=pref:whynot.andy@ihashing.hk
+TEL;type=WORK;type=VOICE:+852 94481122
+item1.ADR;type=WORK;type=pref:;;1\nCyberport\;;;852;Hong Kong
+item1.X-ABADR:sg
+item2.URL;type=pref:https://www.ihashing.hk
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
