@@ -261,18 +261,6 @@ img.company-logo {
 	display: block;
 }
 
-i.app-icon {
-	text-align: center;
-	vertical-align: middle;
-	background: url("/assets/icon-app.png") no-repeat;
-	background-size: 95%;
-    content: "";
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-}
-
 /* The switch - the box around the slider */
 .switch {
   position: relative;
